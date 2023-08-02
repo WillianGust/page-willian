@@ -36,19 +36,19 @@ header span {
 
 header .navegacao-primaria {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   align-items: center;
 }
 
 header .navegacao-primaria li a {
-  padding: 10px;
+  /* padding: 10px; */
   color: #fff;
   width: 0px;
   height: 0px;
   font-size: 1.3rem;
 }
 
-/* header .navegacao-primaria li a::after {
+header .navegacao-primaria li a::after {
   content: '';
   width: 0px;
   height: 0px;
@@ -61,8 +61,8 @@ header .navegacao-primaria li a:hover::after {
   width: 100%;
   height: 0px;
   padding: 0px;
-  border-bottom: 4px solid #dc3545;
-} */
+  border-bottom: 4px solid #f9004d;
+}
 
 /* DOWNLOAD CV SECTION  */
 
@@ -295,8 +295,28 @@ main .sobre {
     background-position: center;
   }
 
+  header {
+    justify-content: space-between;
+    padding: 30px 70px;
+  }
+
   header .navegacao-primaria {
     display: none;
+  }
+
+  header .navegacao-primaria.ativado {
+    background: linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724));
+    position: absolute;
+    display: grid;
+    top: 80px;
+    color: white;
+    z-index: 1;
+    padding: 30px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 0 0 4px 4px;
+    right: 20px;
+    animation: sobeSecao .8s ease-in-out forwards;
   }
 
   header i {
