@@ -23,6 +23,7 @@ function menuMobol() {
     navMenu.classList.toggle('ativado');
   })
 }
+menuMobol();
 
 function sobreMim() {
   const divExperience = document.querySelectorAll('.experience_content div');
