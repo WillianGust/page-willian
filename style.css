@@ -108,6 +108,7 @@ header .navegacao-primaria li a:hover::after {
 .section-div img {
   width: 720px;
   max-width: 100%;
+  border-radius: 5px;
 }
 
 .digitando::after {
@@ -288,12 +289,13 @@ main .sobre {
   .section-div img {
     display: none;
   }
-
+  
   .section-div {
-    background-image: url(img/willian.jpg);
+    background-image: url(img/background_horizontal.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
   }
   
   header {
