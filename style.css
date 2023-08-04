@@ -423,7 +423,7 @@ main .sobre {
   font-family: 'Poppins';
   font-weight: 500;
 }
-.my_services ul li p {
+.my_services ul li p a{
   color: #707070;
   font-size: 1.1rem;
 }
