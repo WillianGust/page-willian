@@ -297,7 +297,18 @@ main .sobre {
   .sobre_info p i a {
     color: #707070;
   }
+
+  .sobre_info {
+    font-size: .93rem;
+    left: 10px;
+    justify-self: center;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
   
+  .sobre_info p {
+    font-size: .936rem;
+  }
 
   .section-div {
     background-image: url(img/background-binary-code.jpg);
@@ -712,9 +723,10 @@ main .sobre {
   }
   
   .skill_content {
+    justify-self: center;
     grid-template-columns: 1fr;
-    gap: 20px;
-    margin-top: 10px;
+    gap: 5px;
+    margin-top: 20px;
   }
   
   .fun_facts {
@@ -740,11 +752,6 @@ main .sobre {
     height: auto;
   }
   
-  .fun_facts ul i {
-    grid-row: unset;
-    border-right: none;
-    padding: 0;
-  }
 }
 
 
