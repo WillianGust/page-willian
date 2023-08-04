@@ -98,6 +98,7 @@ header .navegacao-primaria li a:hover::after {
 }
 
 .section-div div a {
+  font-family: 'Poppins';
   justify-self: start;
   color: #f7f7f7;
   padding: 15px 40px;
