@@ -427,14 +427,18 @@ main .sobre {
   color: #707070;
   font-size: 1.1rem;
 }
+
 @media screen and (max-width: 768px) {
   .services {
-    padding: 30px; Reduce padding for mobile
+    padding: 30px;
   }
 
   .my_services ul li {
     max-width: 100%; /* Full width for mobile */
     height: auto; /* Auto height for mobile */
+  }
+  .my_services ul li p a{
+    color: #707070;
   }
 }
 
