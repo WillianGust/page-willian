@@ -830,6 +830,7 @@ main .sobre {
 }
 
 .projects_armazenamento ul {
+  grid-template-columns: repeat(1, 1fr);
   display: grid;
   margin-top: 60px;
   justify-content: center;
@@ -927,7 +928,7 @@ main .sobre {
   }
 
   /* Media Query para Dispositivos Móveis */
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .projects {
     padding: 15px;
   }
@@ -943,11 +944,7 @@ main .sobre {
     padding: 12px 20px;
   }
 
-  .projects_armazenamento ul {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-  }
-
+  
   .footer_sociais {
     gap: 15px;
   }
