@@ -828,6 +828,7 @@ main .sobre {
   border: 1px solid #333;
   padding: 6px 20px;
   color: #707070;
+  border-radius: 3px;
 }
 
 .projects_models ul li.ativo {
