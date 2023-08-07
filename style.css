@@ -259,6 +259,13 @@ main .sobre {
   font-size: 1.5rem;
 }
 
+.footer_comercial i{
+  color: #f9004d;
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 1.5rem;
+}
+
 .sobre_info p {
   font-size: 1rem;
 }
@@ -683,7 +690,7 @@ main .sobre {
   display: grid;
   grid-template-columns: auto 1fr;
   align-self: start;
-  width: 200px;
+  width: 230px;
   height: 100px;
 }
 .fun_facts ul i {
@@ -691,7 +698,7 @@ main .sobre {
   padding: 20px;
   font-size: 2rem;
   color: #f9004d;
-  border-right: 2px solid #3e3d3d;
+  /* border-right: 2px solid #3e3d3d; */
 }
 .fun_facts ul span {
   font-size: 1.5rem;
