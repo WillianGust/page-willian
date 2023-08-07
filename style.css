@@ -860,11 +860,11 @@ main .sobre {
   cursor: pointer;
 }
 .projects a {
-  background-color: #222;
+  /* background-color: #222; */
   text-decoration: none;
   justify-self: center;
   padding: 20px 40px;
-  border: 1px solid #333;
+  /* border: 1px solid #333; */
   color: #707070;
 }
 
